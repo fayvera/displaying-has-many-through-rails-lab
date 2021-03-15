@@ -17,5 +17,5 @@ describe "doctors", type: :feature do
       visit doctor_path(@meredith)
       expect(page).to have_link("Bart Simpson", href: patient_path(@bart))
     end
-  end
+  end 
 end
